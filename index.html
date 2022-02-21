@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework15.3</title>
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
+
 <body>
-    
+    <div id="theme">
+    <div class="wrapper">
+        <p> Выберите тему:</p>
+        <select name="changeTheme" id="changeTheme" onchange="showTheme();">
+            <option value="light">Светлая</option>
+            <option value="dark">Темная</option>
+            <option value="blue">Синяя</option>
+        </select>
+    </div>
+    <h1 class="title">Это мой веб-сайт</h1>
+</div>
+    <script src="/main.js"></script>
 </body>
+
 </html>

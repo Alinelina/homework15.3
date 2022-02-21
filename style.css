@@ -1,0 +1,10 @@
+#theme {
+    height: 100vh;
+    background: #E0E0E0;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
